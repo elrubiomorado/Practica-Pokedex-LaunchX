@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pokedex LaunchX🚀</title>
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="shortcut icon" href="./images/master-ball.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/styles.css">
+        
+    </head>
+    <body>
+
+        <main class="flex">
+            <article class="card">
+                <img src="./images/Untitled (800 × 541 px) (1).png" alt="image card header" class="card-header">
+                
+                <div class="card-body">
+                    <img src="./images/pokeball.png" alt="Imagen de pokemon" class="card-body-img" id="pokemonImage">
+                    <h1 class="card-body-title" id="pokeName">
+                        <span id="title">Pokemon</span>
+                        - # 
+                        <span id="pokemonId">ID</span>
+                    </h1>
+                    <!-- <p class="card-body-text" id="pokemonType">Type</p> -->
+                    <div>
+                        <p class="card-body-text" id="pokemonType">Type</p>
+                        <!-- <p class="card-body-text" id="pokemonType2"> Type 2</p> -->
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="card-footer-social">
+                        <h3 id="pokemonAttack">???</h3>
+                        <p>attack</p>
+                    </div>
+                    <div class="card-footer-social">
+                        <h3 id="pokemonHp">???</h3>
+                        <p>Hp</p>
+                    </div>
+                    <div class="card-footer-social">
+                        <h3 id="pokemonDefence">???</h3>
+                        <p>defence</p>
+                    </div>   
+                </div>
+                <div class="card-footer">
+                    <div class="card-footer-social2">
+                        <h3 id="pokemonSpecialAttack">???</h3>
+                        <p>special attack</p>
+                    </div>
+                    <div class="card-footer-social2">
+                        <h3 id="pokemonSpeed">???</h3>
+                        <p>speed</p>
+                    </div>
+                    <div class="card-footer-social2">
+                        <h3 id="pokemonSpecialDefence">???</h3>
+                        <p>special defence</p>
+                    </div>
+                </div>
+                <div class="card-input">
+                    <label for="namePokemon">Introduce el nombre o ID del pokemon:</label>
+                    <input type="text" class="namePokemon" id="pokemonName" placeholder="Nombre del Pokemon/ID" value="">
+                    <button id="pokemonSearch">Buscar Pokemon</button>
+                </div>
+            </article>
+        </main>
+        <script src="/js/app.js"></script>
+    </body>
+</html>
